@@ -13,9 +13,9 @@ Looking for Premium Templates?
 
 Demo
 ----------------
-You can check the website preview with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/)**  
+You can check the website preview with **[this link](https://findmystack.com/)**  
 
-![AdminBSB - Free Admin Template With Material Design](https://raw.githubusercontent.com/gurayyarar/AdminBSBMaterialDesign/master/images/screenshot.png)
+![findmystack-overview](https://github.com/user-attachments/assets/893ea213-ab0f-4a6e-8aa5-b8af9245e6dc)
 
 Installation
 ----------------
