@@ -9916,29 +9916,7 @@
   <!-- Demo Js -->
   <!-- <script src="js/demo.js"></script> -->
   <script>
-    // Preventing Right-Click and Keyboard Shortcuts
-    document.addEventListener( "contextmenu", event => event.preventDefault() );
-    document.addEventListener( "keydown", event => {
-      if ( event.ctrlKey && ( event.key === "u" || event.key === "s" || event.key === "i" ) ) {
-        event.preventDefault();
-      }
-    } );
 
-    //Blocking Developer Console
-    ( function() {
-      var devtools = /./;
-      devtools.toString = function() {
-        console.log( "Developer tools are disabled." );
-        return "";
-      };
-      console.log( devtools );
-    } )();
-
-    setInterval( function() {
-      if ( window.outerHeight - window.innerHeight > 100 || window.outerWidth - window.innerWidth > 100 ) {
-        document.body.innerHTML = "Debugging is not allowed.";
-      }
-    }, 1000 );
 
     $( document ).ready( function() {
       // Setup - add a text input to each footer cell
